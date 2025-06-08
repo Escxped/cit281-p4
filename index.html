@@ -22,7 +22,6 @@
 
     .button {
       display: inline-block;
-      margin-top: 1rem;
       padding: 0.6rem 1.2rem;
       background-color: #007acc;
       color: #fff;
@@ -31,7 +30,14 @@
     }
 
     .button:hover {
-      background-color: #005b94;
+      background-color: #005f99;
+    }
+
+    .button-container {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 1.5rem;
     }
   </style>
 </head>
@@ -63,8 +69,10 @@
     <li>Open browser or API tester and go to <code>http://localhost:3000/api/data</code> or similar routes</li>
   </ol>
 
-  <a href="https://github.com/Escxped/cit281-p4" class="button" target="_blank">📂 View Project on GitHub</a>
-  <br><br>
-  <a href="https://escxped.github.io/" class="button">⬅ Back to Main Portfolio!</a>
+  <div class="button-container">
+    <a href="https://github.com/Escxped/cit281-p4" class="button" target="_blank">📂 View Project on GitHub</a>
+    <a href="https://escxped.github.io/" class="button">⬅ Back to Main Portfolio</a>
+  </div>
+
 </body>
 </html>
